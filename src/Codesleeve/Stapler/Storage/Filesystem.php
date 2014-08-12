@@ -51,10 +51,7 @@ class Filesystem implements StorageableInterface
 	 */
 	public function remove(array $filePaths)
 	{
-		foreach ($filePaths as $filePath) {
-			$directory = dirname($filePath);
-			$this->emptyDirectory($directory, true);
-		}
+
 	}
 
 	/**
