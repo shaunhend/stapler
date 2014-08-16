@@ -21,7 +21,7 @@ class NativeConfig implements ConfigurableInterface
             'preserve_files' => false
         ],
         'filesystem' => [
-            'url' => '/system/:class/:attachment/:id_partition/:style/:filename',
+            'url' => '/:attachment/:style/:filename',
             'path' => ':app_root/public:url',
             'override_file_permissions' => null,
         ],
