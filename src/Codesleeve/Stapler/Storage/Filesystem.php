@@ -51,7 +51,6 @@ class Filesystem implements StorageableInterface
 	 */
 	public function remove(array $filePaths)
 	{
-
 	}
 
 	/**
